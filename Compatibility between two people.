@@ -1,0 +1,29 @@
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+lower_name1 = name1.lower()
+lower_name2 = name2.lower()
+
+sum_names = lower_name1 + lower_name2
+
+count1 = 0
+count2 = 0
+
+count1 = count1 + sum_names.count("t")
+count1 = count1 + sum_names.count("r")
+count1 = count1 + sum_names.count("u")
+count1 = count1 + sum_names.count("e")
+
+count2 = count2 + sum_names.count("l")
+count2 = count2 + sum_names.count("o")
+count2 = count2 + sum_names.count("v")
+count2 = count2 + sum_names.count("e")
+
+total_count = str(count1) + str(count2)
+
+print(f"Your score is {total_count}")
